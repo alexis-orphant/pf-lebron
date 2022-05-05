@@ -1,0 +1,27 @@
+section{
+    background-color: $fondo-section;
+    border-radius: 5%;
+    h1{
+        border-bottom: $color-borders;
+    }
+    div{
+        figure{
+            .lebron-james{
+                width: 22.5rem;
+            }
+        }
+        .centrado{
+            padding-top: 10%;
+            h2{
+                border-bottom: $color-borders;
+                padding-bottom: 2px;
+            }
+            .info-personal{
+                h3{
+                    border-left: $color-borders;
+                    padding-left: 2px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import "../variables/variables";
+footer{
+    background-color: $fondo-nav;
+    div{
+        a{
+            .logo-nav{
+                width: 100px;
+            }
+        }
+    }
+}

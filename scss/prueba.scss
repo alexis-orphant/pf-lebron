@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../assets/NBAbubblefeatured.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@import "./variables/variables";
+@import "./sass2/operaciones";
+@import "./sass2/condicionales";
+@import "./sass2/extend";
+@import "./sass2/maps";
+@import "./sass2/mixins";
+@import "./partials/header";
+@import "./partials/section";
+@import "./partials/footer";

@@ -1,0 +1,31 @@
+@import "../variables/variables";
+.fondo-nav{
+    background-color: $fondo-nav;
+    nav{
+        a{
+            .logo-nav{
+                width: 100px;
+            }
+        }
+        div{
+            ul{
+                li{
+                    .boton{
+                        border: 2px solid #3c66e3;
+                        border-radius: 15px;
+                        &:hover{
+                            animation: pulsate 1s ease-in-out;
+                            @keyframes pulsate{
+                                0%{
+                                    box-shadow: 
+                                    0 0 10px #5ddcff,
+                                    0 0 15px #4e00c2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

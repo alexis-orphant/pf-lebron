@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../assets/NBAbubblefeatured.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.fondo-nav {
+  background-color: rgba(46, 21, 63, 0.9); }
+  .fondo-nav nav a .logo-nav {
+    width: 100px; }
+  .fondo-nav nav div ul li .boton {
+    border: 2px solid #3c66e3;
+    border-radius: 15px; }
+    .fondo-nav nav div ul li .boton:hover {
+      animation: pulsate 1s ease-in-out; }
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 10px #5ddcff, 0 0 15px #4e00c2; } }
+
+section {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5%; }
+  section h1 {
+    border-bottom: 2px solid #f2d64b; }
+  section div figure .lebron-james {
+    width: 22.5rem; }
+  section div .centrado {
+    padding-top: 10%; }
+    section div .centrado h2 {
+      border-bottom: 2px solid #f2d64b;
+      padding-bottom: 2px; }
+    section div .centrado .info-personal h3 {
+      border-left: 2px solid #f2d64b;
+      padding-left: 2px; }
+
+footer {
+  background-color: rgba(46, 21, 63, 0.9); }
+  footer div a .logo-nav {
+    width: 100px; }
