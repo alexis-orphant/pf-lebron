@@ -39,6 +39,38 @@ section {
       border-left: 2px solid #f2d64b;
       padding-left: 2px; }
 
+main .trayectoria {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: "titulo titulo" "imagen equipoa" "imagen equipob" "imagen equipoc"; }
+  main .trayectoria .titulo {
+    grid-area: titulo;
+    text-align: center; }
+  main .trayectoria .lebron-rookie {
+    grid-area: imagen; }
+  main .trayectoria .cleveland {
+    grid-area: equipoa;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #f2d64b; }
+    main .trayectoria .cleveland .logo-equipo {
+      width: 100px; }
+  main .trayectoria .heat {
+    grid-area: equipob;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #f2d64b; }
+    main .trayectoria .heat .logo-equipo {
+      width: 100px; }
+  main .trayectoria .lakers {
+    grid-area: equipoc;
+    display: flex;
+    flex-direction: column;
+    border-bottom: none; }
+    main .trayectoria .lakers .logo-equipo {
+      width: 100px; }
+
 footer {
   background-color: rgba(46, 21, 63, 0.9); }
   footer div a .logo-nav {
