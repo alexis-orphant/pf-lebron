@@ -1,0 +1,38 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+.stats{
+    section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo titulo"
+                        "imagen1 estadisticas"
+                        "video estadisticas";
+                        h1{
+                            grid-area: titulo;
+                            border-bottom: $color-borders;
+                        }
+                        figure{
+                            grid-area: imagen1;
+                            img{
+                                display: block;
+                            }
+                        }
+                        article{
+                            grid-area: estadisticas;
+                            padding-right: 5%;
+                            h2{
+                                @extend .h3;
+                                
+                            }
+                            h3{
+                                @extend .borde-violeta;
+                            }
+                        }
+                        video{
+                            grid-area: video;
+                            width: 80%;
+                            border-radius: 50px;
+                        }
+    }
+}

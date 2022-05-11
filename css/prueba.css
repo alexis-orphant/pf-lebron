@@ -12,8 +12,11 @@ body {
 .h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
   border-bottom: 2px solid #f2d64b; }
 
-.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3 {
+.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3, .stats section article h2 {
   border-left: 2px solid #f2d64b; }
+
+.borde-violeta, .stats section article h3 {
+  border-left: 3px solid #250272; }
 
 .fondo-nav {
   background-color: rgba(46, 21, 63, 0.9); }
@@ -80,8 +83,11 @@ main .trayectoria {
 .h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
   border-bottom: 2px solid #f2d64b; }
 
-.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3 {
+.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3, .stats section article h2 {
   border-left: 2px solid #f2d64b; }
+
+.borde-violeta, .stats section article h3 {
+  border-left: 3px solid #250272; }
 
 .logros .internacionales {
   border-top: 2px solid #f2d64b; }
@@ -97,6 +103,35 @@ main .trayectoria {
   border-top: 2px solid #f2d64b; }
   .logros .logros-personales h3 {
     margin-left: 5%; }
+
+.h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
+  border-bottom: 2px solid #f2d64b; }
+
+.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3, .stats section article h2 {
+  border-left: 2px solid #f2d64b; }
+
+.borde-violeta, .stats section article h3 {
+  border-left: 3px solid #250272; }
+
+.stats section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: "titulo titulo" "imagen1 estadisticas" "video estadisticas"; }
+  .stats section h1 {
+    grid-area: titulo;
+    border-bottom: 2px solid #f2d64b; }
+  .stats section figure {
+    grid-area: imagen1; }
+    .stats section figure img {
+      display: block; }
+  .stats section article {
+    grid-area: estadisticas;
+    padding-right: 5%; }
+  .stats section video {
+    grid-area: video;
+    width: 80%;
+    border-radius: 50px; }
 
 footer {
   background-color: rgba(46, 21, 63, 0.9); }
