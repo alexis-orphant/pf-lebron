@@ -1,0 +1,37 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+.logros{
+    h1{
+        @extend .h1-h2;
+    }
+    .internacionales{
+        border-top: $color-borders;
+        h2{
+            @extend .h1-h2;
+        }
+        h3{
+            @extend .h3;
+            margin-left: 5%;
+        }
+    }
+    .titulos-nba{
+        border-top: $color-borders;
+        h2{
+            @extend .h1-h2;
+        }
+        h3{
+            @extend .h3;
+            margin-left: 5%;
+        }
+    }
+    .logros-personales{
+        border-top: $color-borders;
+        h2{
+            @extend .h1-h2;
+        }
+        h3{
+            @extend .h3;
+            margin-left: 5%;
+        }
+    }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../css/prueba.css">
     <title>Logros</title>
 </head>
+
 <body>
     <!--navbar-->
     <header class="navbar navbar-expand-lg navbar-dark fondo-nav">
@@ -23,8 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ps-2">
-                        <a class="nav-link active boton" aria-current="page"
-                            href="./trayectoria.html">Trayectoria</a>
+                        <a class="nav-link active boton" aria-current="page" href="./trayectoria.html">Trayectoria</a>
                     </li>
                     <li class="nav-item ps-2">
                         <a class="nav-link active boton" href="./logros.html">Logros</a>
@@ -40,11 +41,60 @@
         </nav>
     </header>
     <!--contenido-->
-        <section class="w-50 mx-auto trayectoria">
-            <h1 class="text-light pt-2 pb-2 titulo">Logros</h1>
-            <figure><img src="../assets/lebron-maiami-heat.png" alt="lebron-maiami-heat"></figure>
-            <p class="text-light fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dolorum voluptatem distinctio quasi non, amet nostrum, quis ullam temporibus voluptatum esse facilis minima natus optio commodi porro hic iusto repellat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dolorum voluptatem distinctio quasi non, amet nostrum, quis ullam temporibus voluptatum esse facilis minima natus optio commodi porro hic iusto repellat.</p>
-        </section>
+    <section class="w-50 mx-auto logros">
+        <h1 class="text-light text-center pt-2 my-auto pb-2 titulo">Logros</h1>
+        <!--carrusel-->
+        <div id="carouselExampleInterval" class="carousel slide mx-auto w-50 pt-3 imgenes-lebron" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <figure class="carousel-item active" data-bs-interval="10000">
+                    <img src="../assets/lebron-campeon-lakers.jpg" class="d-block w-100" alt="lebron-campeon-lakers">
+                </figure>
+                <figure class="carousel-item" data-bs-interval="2000">
+                    <img src="../assets/lebron-tapon-finales.jpg" class="d-block w-100" alt="lebron-tapon-finales">
+                </figure>
+                <figure class="carousel-item">
+                    <img src="../assets/lebron-heat-finals.jpg" class="d-block w-100" alt="lebron-heat-finals">
+                </figure>
+                <figure class="carousel-item">
+                    <img src="../assets/lebron-mvp-cavs.jpg" class="d-block w-100" alt="lebron-mvp-cavs">
+                </figure>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--logros-->
+        <article class="text-light internacionales">
+            <h2 class="fs-2 pt-2 pb-2 text-center">Títulos internacionales de selección</h2>
+            <h3 class="fs-5">Medalla de Bronce en los Juegos Olímpicos de Atenas 2004</h3>
+            <h3 class="fs-5">Medalla de Bronce en Campeonato Mundial de Japón 2006</h3>
+            <h3 class="fs-5">Medalla de Oro en el Campeonato FIBA Américas de Las Vegas 2007</h3>
+            <h3 class="fs-5">Medalla de Oro en los Juegos Olímpicos de Pekín 2008</h3>
+            <h3 class="fs-5">Medalla de Oro en los Juegos Olímpicos de Londres 2012</h3>
+        </article>
+        <article class="text-light titulos-nba">
+            <h2 class="fs-2 text-center pt-2 pb-2">Titulos NBA</h2>
+            <h3 class="fs-5">2012 Miami Heat</h3>
+            <h3 class="fs-5">2013 Miami Heat</h3>
+            <h3 class="fs-5">2016 Cleveland Cavaliers</h3>
+            <h3 class="fs-5">2020 Los Angeles Lakers</h3>
+        </article>
+        <article class="text-light pb-3 logros-personales">
+            <h2 class="fs-2 pt-2 pb-2 text-center">Logros Personales</h2>
+            <h3 class="fs-5">Elegido Rookie del Año de la NBA en 2004</h3>
+            <h3 class="fs-5">18 veces elegido para jugar el All-Star Game de la NBA</h3>
+            <h3 class="fs-5">3 veces MVP del All-Star Game de la NBA</h3>
+            <h3 class="fs-5">4 veces MVP de la temporada regular</h3>
+            <h3 class="fs-5">4 veces MVP de las finales</h3>
+        </article>
+    </section>
     <!--pie de pagina-->
     <footer class="row nav mx-auto pt-2">
         <div class="col">
@@ -79,4 +129,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

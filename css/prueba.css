@@ -9,6 +9,12 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
+.h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
+  border-bottom: 2px solid #f2d64b; }
+
+.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3 {
+  border-left: 2px solid #f2d64b; }
+
 .fondo-nav {
   background-color: rgba(46, 21, 63, 0.9); }
   .fondo-nav nav a .logo-nav {
@@ -70,6 +76,27 @@ main .trayectoria {
     border-bottom: none; }
     main .trayectoria .lakers .logo-equipo {
       width: 100px; }
+
+.h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
+  border-bottom: 2px solid #f2d64b; }
+
+.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3 {
+  border-left: 2px solid #f2d64b; }
+
+.logros .internacionales {
+  border-top: 2px solid #f2d64b; }
+  .logros .internacionales h3 {
+    margin-left: 5%; }
+
+.logros .titulos-nba {
+  border-top: 2px solid #f2d64b; }
+  .logros .titulos-nba h3 {
+    margin-left: 5%; }
+
+.logros .logros-personales {
+  border-top: 2px solid #f2d64b; }
+  .logros .logros-personales h3 {
+    margin-left: 5%; }
 
 footer {
   background-color: rgba(46, 21, 63, 0.9); }
