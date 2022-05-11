@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../css/prueba.css">
     <title>Contacto</title>
 </head>
+
 <body class="contacto">
     <!--navbar-->
     <header class="navbar navbar-expand-lg navbar-dark fondo-nav">
@@ -23,8 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ps-2">
-                        <a class="nav-link active boton" aria-current="page"
-                            href="./trayectoria.html">Trayectoria</a>
+                        <a class="nav-link active boton" aria-current="page" href="./trayectoria.html">Trayectoria</a>
                     </li>
                     <li class="nav-item ps-2">
                         <a class="nav-link active boton" href="./logros.html">Logros</a>
@@ -39,21 +40,37 @@
             </div>
         </nav>
     </header>
-    <!--contenido-->
-    <section>
-        <div class="contenedor">
-            <div class="caja-contacto">
-                <div class="izquierda"></div>
-                <div class="derecha">
-                    <h2>Contactanos</h2>
-                    <input type="text" class="field" placeholder="Nombre">
-                    <input type="email" class="field" placeholder="Tu email">
-                    <input type="text" class="field" placeholder="Número de telefono">
-                    <textarea class="field" placeholder="Mensaje"></textarea>
-                </div>
+    <!--formulario de contacto-->
+    <form class="w-75 mx-auto contact" action="">
+        <div class="row w-75 mx-auto pt-3 nombre">
+            <div class="col mb-3 w-50 mx-auto text-center text-light">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            </div>
+            <div class="col mb-3 w-50 mx-auto text-center text-light">
+                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
             </div>
         </div>
-    </section>
+        <div class="row w-75 mx-auto pt-3 correo">
+            <div class="col mb-3 w-50 mx-auto text-center text-light">
+                <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="col mb-3 w-50 mx-auto text-center text-light">
+                <label for="exampleFormControlInput1" class="form-label">Número de telefono</label>
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="telefono">
+            </div>
+        </div>
+        <div class="mb-3 w-50 mx-auto text-center text-light pt-3 coment">
+            <label for="exampleFormControlTextarea1" class="form-label">Ingrese un comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <div class="pb-4 w-50 mx-auto">
+            <button type="submit" class="btn btn-outline-light w-100 fs-5">Enviar</button>
+        </div>
+    </form>
     <!--pie de pagina-->
     <footer class="row nav mx-auto pt-2">
         <div class="col">
@@ -88,4 +105,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

@@ -133,6 +133,15 @@ main .trayectoria {
     width: 80%;
     border-radius: 50px; }
 
+.contact {
+  background-color: rgba(0, 0, 0, 0.75); }
+  .contact .nombre label {
+    border-bottom: 2px solid #f2d64b; }
+  .contact .correo label {
+    border-bottom: 2px solid #f2d64b; }
+  .contact .coment label {
+    border-bottom: 2px solid #f2d64b; }
+
 footer {
   background-color: rgba(46, 21, 63, 0.9); }
   footer div a .logo-nav {
