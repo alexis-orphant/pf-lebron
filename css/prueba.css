@@ -38,7 +38,9 @@ section {
   section h1 {
     border-bottom: 2px solid #f2d64b; }
   section div figure .lebron-james {
-    width: 22.5rem; }
+    width: 22.5rem;
+    display: block;
+    margin: auto; }
   section div .centrado {
     padding-top: 10%; }
     section div .centrado h2 {
@@ -47,6 +49,24 @@ section {
     section div .centrado .info-personal h3 {
       border-left: 2px solid #f2d64b;
       padding-left: 2px; }
+
+@media screen and (max-width: 768px) {
+  section div figure .lebron-james {
+    width: 300px;
+    display: block;
+    margin: auto; } }
+
+@media screen and (max-width: 580px) {
+  section div figure .lebron-james {
+    width: 225px;
+    display: block;
+    margin: auto; } }
+
+@media screen and (max-width: 410px) {
+  section div figure .lebron-james {
+    width: 150px;
+    display: block;
+    margin: auto; } }
 
 main .trayectoria {
   display: grid;
@@ -79,6 +99,53 @@ main .trayectoria {
     border-bottom: none; }
     main .trayectoria .lakers .logo-equipo {
       width: 100px; }
+
+@media screen and (max-width: 1000px) {
+  main .trayectoria {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo" "imagen" "equipoa" "equipob" "equipoc"; }
+    main .trayectoria .titulo {
+      grid-area: titulo;
+      text-align: center; }
+    main .trayectoria .lebron-cavs-rookie {
+      width: 150px;
+      display: block;
+      margin: auto; }
+    main .trayectoria .lebron-rookie {
+      grid-area: imagen; }
+    main .trayectoria .cleveland {
+      grid-area: equipoa;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-top: 2px solid #f2d64b; }
+      main .trayectoria .cleveland img {
+        display: block;
+        margin: auto; }
+    main .trayectoria .heat {
+      grid-area: equipob;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+      main .trayectoria .heat img {
+        display: block;
+        margin: auto; }
+    main .trayectoria .lakers {
+      grid-area: equipoc;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+      main .trayectoria .lakers img {
+        display: block;
+        margin: auto; } }
+
+@media screen and (max-width: 350px) {
+  main section figure .lebron-cavs-rookie {
+    width: 100px !important;
+    display: block;
+    margin: auto; } }
 
 .h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
   border-bottom: 2px solid #f2d64b; }

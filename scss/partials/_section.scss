@@ -9,6 +9,8 @@ section{
         figure{
             .lebron-james{
                 width: 22.5rem;
+                display: block;
+                margin: auto;
             }
         }
         .centrado{
@@ -26,3 +28,4 @@ section{
         }
     }
 }
+@import "./indexMedia";

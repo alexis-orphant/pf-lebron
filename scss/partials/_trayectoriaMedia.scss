@@ -1,0 +1,72 @@
+@import "../variables/variables";
+
+@media screen and (max-width: 1000px){
+    main{
+        .trayectoria{
+            display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "titulo"
+                            "imagen"
+                            "equipoa"
+                            "equipob"
+                            "equipoc";
+                    .titulo{
+                        grid-area: titulo;
+                        text-align: center;
+                    }
+                    .lebron-cavs-rookie{
+                        width: 150px;
+                        display: block;
+                        margin: auto;
+                    }
+                    .lebron-rookie{
+                        grid-area: imagen;
+                    }
+                    .cleveland{
+                        grid-area: equipoa;
+                        display: flex; 
+                        flex-direction: column;
+                        text-align: center;
+                        border-top: $color-borders;
+                        img{
+                            display: block;
+                            margin: auto;
+                        }
+                    }
+                    .heat{
+                        grid-area: equipob;
+                        display: flex; 
+                        flex-direction: column;
+                        text-align: center;
+                        img{
+                            display: block;
+                            margin: auto;
+                        }
+                    }
+                    .lakers{
+                        grid-area: equipoc;
+                        display: flex; 
+                        flex-direction: column;
+                        text-align: center;
+                        img{
+                            display: block;
+                            margin: auto;
+                        }
+                    }
+        }
+    }
+}
+@media screen and (max-width: 350px){
+    main{
+        section{
+            figure{
+                .lebron-cavs-rookie{
+                    width: 100px !important;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
