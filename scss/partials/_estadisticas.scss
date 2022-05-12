@@ -16,6 +16,7 @@
                             grid-area: imagen1;
                             img{
                                 display: block;
+                                margin: auto;
                             }
                         }
                         article{
@@ -36,3 +37,4 @@
                         }
     }
 }
+@import "./statsMedia";

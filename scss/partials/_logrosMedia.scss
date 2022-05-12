@@ -1,0 +1,17 @@
+@import "../variables/variables";
+
+@media screen and (max-width: 500px){
+    .logros{
+        h1{
+            font-size: larger;
+        }
+        article{
+            h2{
+                font-size: larger !important;
+            }
+            h3{
+                font-size: medium !important;
+            }
+        }
+    }
+}

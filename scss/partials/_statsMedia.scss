@@ -1,0 +1,35 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@media screen and (max-width: 768px ){
+    .stats{
+        section{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            grid-template-areas: "titulo"
+                                "imagen1"
+                                "estadisticas"
+                                "video";
+                                h1{
+                                    grid-area: titulo;
+                                    border-bottom: $color-borders;
+                                }
+                                figure{
+                                    grid-area: imagen1;
+                                    img{
+                                        display: block;
+                                        margin: auto;
+                                    }
+                                }
+                                article{
+                                    grid-area: estadisticas;
+                                    padding-right: 5%;
+                                }
+                                video{
+                                    grid-area: video;
+                                    width: 80%;
+                                    border-radius: 50px;
+                                }
+        }
+    }
+}

@@ -171,6 +171,14 @@ main .trayectoria {
   .logros .logros-personales h3 {
     margin-left: 5%; }
 
+@media screen and (max-width: 500px) {
+  .logros h1 {
+    font-size: larger; }
+  .logros article h2 {
+    font-size: larger !important; }
+  .logros article h3 {
+    font-size: medium !important; } }
+
 .h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
   border-bottom: 2px solid #f2d64b; }
 
@@ -191,7 +199,8 @@ main .trayectoria {
   .stats section figure {
     grid-area: imagen1; }
     .stats section figure img {
-      display: block; }
+      display: block;
+      margin: auto; }
   .stats section article {
     grid-area: estadisticas;
     padding-right: 5%; }
@@ -199,6 +208,37 @@ main .trayectoria {
     grid-area: video;
     width: 80%;
     border-radius: 50px; }
+
+.h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
+  border-bottom: 2px solid #f2d64b; }
+
+.h3, .logros .internacionales h3, .logros .titulos-nba h3, .logros .logros-personales h3, .stats section article h2 {
+  border-left: 2px solid #f2d64b; }
+
+.borde-violeta, .stats section article h3 {
+  border-left: 3px solid #250272; }
+
+@media screen and (max-width: 768px) {
+  .stats section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo" "imagen1" "estadisticas" "video"; }
+    .stats section h1 {
+      grid-area: titulo;
+      border-bottom: 2px solid #f2d64b; }
+    .stats section figure {
+      grid-area: imagen1; }
+      .stats section figure img {
+        display: block;
+        margin: auto; }
+    .stats section article {
+      grid-area: estadisticas;
+      padding-right: 5%; }
+    .stats section video {
+      grid-area: video;
+      width: 80%;
+      border-radius: 50px; } }
 
 .contact {
   background-color: rgba(0, 0, 0, 0.75); }
