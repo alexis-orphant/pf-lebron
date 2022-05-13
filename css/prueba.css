@@ -56,13 +56,7 @@ section {
     display: block;
     margin: auto; } }
 
-@media screen and (max-width: 580px) {
-  section div figure .lebron-james {
-    width: 225px;
-    display: block;
-    margin: auto; } }
-
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 480px) {
   section div figure .lebron-james {
     width: 150px;
     display: block;
@@ -78,6 +72,8 @@ main .trayectoria {
     text-align: center; }
   main .trayectoria .lebron-rookie {
     grid-area: imagen; }
+    main .trayectoria .lebron-rookie img {
+      width: 200px; }
   main .trayectoria .cleveland {
     grid-area: equipoa;
     display: flex;
@@ -100,7 +96,7 @@ main .trayectoria {
     main .trayectoria .lakers .logo-equipo {
       width: 100px; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   main .trayectoria {
     display: grid;
     grid-template-columns: auto;
@@ -109,12 +105,12 @@ main .trayectoria {
     main .trayectoria .titulo {
       grid-area: titulo;
       text-align: center; }
-    main .trayectoria .lebron-cavs-rookie {
-      width: 150px;
-      display: block;
-      margin: auto; }
     main .trayectoria .lebron-rookie {
       grid-area: imagen; }
+      main .trayectoria .lebron-rookie img {
+        width: 150px;
+        display: block;
+        margin: auto; }
     main .trayectoria .cleveland {
       grid-area: equipoa;
       display: flex;
@@ -141,11 +137,9 @@ main .trayectoria {
         display: block;
         margin: auto; } }
 
-@media screen and (max-width: 350px) {
-  main section figure .lebron-cavs-rookie {
-    width: 100px !important;
-    display: block;
-    margin: auto; } }
+@media screen and (max-width: 480px) {
+  main .trayectoria .lebron-rookie img {
+    width: 100px; } }
 
 .h1-h2, .logros h1, .logros .internacionales h2, .logros .titulos-nba h2, .logros .logros-personales h2 {
   border-bottom: 2px solid #f2d64b; }
@@ -171,7 +165,7 @@ main .trayectoria {
   .logros .logros-personales h3 {
     margin-left: 5%; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .logros h1 {
     font-size: larger; }
   .logros article h2 {
