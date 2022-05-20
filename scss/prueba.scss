@@ -1,18 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'DM Sans', sans-serif;
-}
-
-body{
-    background-image: url(../assets/NBAbubblefeatured.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@import "./partials/formateo";
 
 @import "./variables/variables";
 @import "./sass2/operaciones";
